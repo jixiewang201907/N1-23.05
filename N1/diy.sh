@@ -10,5 +10,3 @@ rm -rf feeds/luci/applications/luci-app-passwall
 git clone https://github.com/nantayo/My-Pkg package/my-pkg
 git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
 git clone https://github.com/jixiewang201907/by-pass.git package/by-pass
-# Add luci-theme-opentomcat
-git clone https://github.com/jixiewang201907/luci-theme-opentomcat.git package/luci-theme-opentomcat
