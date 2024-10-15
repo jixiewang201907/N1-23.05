@@ -4,10 +4,8 @@ config interface 'loopback'
 	option ipaddr '127.0.0.1'
 	option netmask '255.0.0.0'
 
-config interface 'docker'
-	option device 'docker0'
-	option proto 'none'
-	option auto '0'
+config globals 'globals'
+	option packet_steering '1'
 
 config interface 'lan'
 	option proto 'static'
@@ -26,9 +24,3 @@ config interface 'lan6'
         option reqaddress 'try'
         option reqprefix 'auto'
 
-config device
-	option type 'bridge'
-	option name 'docker0'
-
-config globals 'globals'
-	option packet_steering '1'
