@@ -21,6 +21,10 @@ config dhcp 'lan'
 	list ra_flags 'other-config'
 	option ignore '1'
 
+config dhcp 'lan6'
+	option interface 'lan'
+        option ignore '1'
+
 config odhcpd 'odhcpd'
 	option maindhcp '0'
 	option leasefile '/tmp/hosts/odhcpd'
