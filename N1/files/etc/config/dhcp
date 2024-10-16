@@ -22,7 +22,7 @@ config dhcp 'lan'
 	option ignore '1'
 
 config dhcp 'lan6'
-	option interface 'lan'
+	option interface 'lan6'
         option ignore '1'
 
 config odhcpd 'odhcpd'
