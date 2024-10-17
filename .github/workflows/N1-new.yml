@@ -109,7 +109,7 @@ jobs:
         tag_name: OpenWrt_${{ env.PACKAGED_OUTPUTDATE }}
         files: ${{ env.PACKAGED_OUTPUTPATH }}/*
         body: |
-          首次使用建议全新刷写
+          N1 Imm 23.05 精简版本
           * 基本信息
           IP: 192.168.2.200
           账户: root
