@@ -20,8 +20,7 @@ config dhcp 'lan'
 	list ra_flags 'managed-config'
 	list ra_flags 'other-config'
 	option ignore '1'
-        option dynamicdhcp='0'
-
+       
 config dhcp 'lan6'
 	option interface 'lan6'
         option ignore '1'
