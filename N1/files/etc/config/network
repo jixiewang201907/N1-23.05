@@ -15,7 +15,8 @@ config interface 'lan'
 	option device 'eth0'
 	option ipaddr '192.168.2.2'
 	option gateway '192.168.2.1'
-	option delegate '0'
+	option ip6assign '64'
+        option delegate '0'
 
 config device
 	option type 'bridge'
