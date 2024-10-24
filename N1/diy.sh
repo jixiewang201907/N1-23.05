@@ -9,5 +9,4 @@ rm -rf feeds/luci/applications/luci-app-passwall
 # Add packages
 git clone https://github.com/nantayo/My-Pkg package/my-pkg
 git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
-git clone https://github.com/jixiewang201907/by-pass.git package/by-pass
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
