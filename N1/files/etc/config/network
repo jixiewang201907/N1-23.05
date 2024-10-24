@@ -16,4 +16,9 @@ config interface 'lan'
         option ip6assign '64'
         option device 'eth0'
         option delegate '0'
-        
+
+config interface 'lan6'
+        option proto 'dhcpv6'
+        option ifname '@lan'
+        option reqaddress 'try'
+        option reqprefix 'auto'
