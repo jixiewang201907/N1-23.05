@@ -13,7 +13,7 @@ config interface 'lan'
         option netmask '255.255.255.0'
         option gateway '192.168.2.1'
         option dns '192.168.2.1'
-        option ip6assign '64'
+        option ip6assign '60'
         option device 'eth0'
         option delegate '0'
 
