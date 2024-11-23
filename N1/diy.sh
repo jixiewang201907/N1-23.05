@@ -6,7 +6,7 @@ sed -i 's/192.168.1.1/192.168.2.200/g' package/base-files/files/bin/config_gener
 # Remove packages
 rm -rf feeds/luci/applications/luci-app-passwall
 # Add packages
-git clone https://github.com/jixiewang201907/My-Pkg package/my-pkg
+git clone https://github.com/nantayo/My-Pkg package/my-pkg
 git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 # Add luci-app-bypass
