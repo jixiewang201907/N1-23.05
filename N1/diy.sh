@@ -9,8 +9,8 @@ rm -rf feeds/luci/applications/luci-app-passwall
 wget -q -cP files/usr/share/v2ray https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat
 wget -q -cP files/usr/share/v2ray https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
 # Add packages
-git clone https://github.com/nantayo/My-Pkg package/my-pkg
-git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
+#git clone https://github.com/nantayo/My-Pkg package/my-pkg
+#git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 # Add luci-app-bypass
 git clone https://github.com/jixiewang201907/by-pass.git package/by-pass
